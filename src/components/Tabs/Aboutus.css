@@ -12,13 +12,14 @@ margin-top: -79px;
 }
 
 .icon1{
-color: #000;
+color:#2c3964
+;
 
 }
 .icon1:hover,
 .icon1:focus {
 
-color:#a80c2b;
+  color:#ffd6ba       
 }
 
 .persons {max-width: 1240px;margin:auto;}

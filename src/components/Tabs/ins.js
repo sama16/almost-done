@@ -14,12 +14,12 @@ function ins() {
             marginTop: "100px",
             textAlign: "center",
             fontSize: "50px",
-            color: "black",
+            color: "#2c3964            ",
           }}
         >
           Some successful stories that created history
         </h2>
-        <p style={{ fontSize: "20px", textAlign: "center" }}>
+        <p style={{ fontSize: "20px", textAlign: "center",color:"#555b6e" }}>
           Success to me means Believing in yourself, loving yourself and being
           happy with who you are. The basic tenet of those who wish to succeed
           is to be willing to fail. You must take 100% responsibility for
@@ -40,9 +40,9 @@ function ins() {
               <h2>
                 Bill <br /> Gates
               </h2>
-              <button style={{ itemSize: "50px" }} className="Clickhere">
+              <button style={{ itemSize: "50px",backgroundColor:"#f7c4a2" }} className="Clickhere">
                 <a
-                  style={{ fontSize: "30px", color: "white" }}
+                  style={{ fontSize: "30px"     }}
                   href="https://en.wikipedia.org/wiki/Bill_Gates"
                 >
                   Read More
@@ -58,11 +58,11 @@ function ins() {
               <h2>
                 Steve <br /> Jobs
               </h2>
-              <button style={{ itemSize: "50px" }} className="Clickhere">
+              <button style={{ itemSize: "50px",backgroundColor:"#f7c4a2" }} className="Clickhere">
                 <a
                   style={{
                     fontSize: "30px",
-                    color: "white",
+                
                   }}
                   href="https://en.wikipedia.org/wiki/Steve_Jobs "
                 >
@@ -79,11 +79,10 @@ function ins() {
               <h2>
                 Oprah <br /> Winfrey
               </h2>
-              <button style={{ itemSize: "50px" }} className="Clickhere">
+              <button style={{ itemSize: "50px" ,backgroundColor:"#f7c4a2"}} className="Clickhere">
                 <a
                   style={{
                     fontSize: "30px",
-                    color: "white",
                   }}
                   href="https://en.wikipedia.org/wiki/Oprah_Winfrey "
                 >
@@ -101,11 +100,10 @@ function ins() {
                 Serena
                 <br /> Williams
               </h2>
-              <button style={{ itemSize: "50px" }} className="Clickhere">
+              <button style={{ itemSize: "50px" ,backgroundColor:"#f7c4a2"}} className="Clickhere">
                 <a
                   style={{
                     fontSize: "30px",
-                    color: "white",
                   }}
                   href="https://en.wikipedia.org/wiki/Serena_Williams "
                 >
@@ -129,9 +127,11 @@ function ins() {
           style={{
             textAlign: "center",
             fontSize: "20px",
+            color:"#555b6e"
+
           }}
         >
-          <h2 style={{ fontSize: "50px", marginBottom: "50px" }}>
+          <h2 style={{ fontSize: "50px", marginBottom: "50px",color:"#2c3964" }}>
             How to manage your time
           </h2>
           Time management is the process of planning and controlling how much
@@ -150,11 +150,11 @@ function ins() {
         />
       </div>
       <div>
-        <h2 style={{ textAlign: "center", fontSize: "50px" }}>
+        <h2 style={{ textAlign: "center", fontSize: "50px",color:"#2c3964" }}>
           Benefits of Time Management
         </h2>
-        <p style={{ marginTop: "60px", fontSize: "20px" }}>
-          <span style={{ color: " rgb(157, 242, 97)", fontWeight: "bold" }}>
+        <p style={{ marginTop: "60px", fontSize: "20px" ,color:"#555b6e"}}>
+          <span style={{ color: " rgb(157, 242, 97)", fontWeight: "bold" ,color:"#f7c4a2"}}>
             1. Stress relief
           </span>
           <br />
@@ -164,8 +164,8 @@ function ins() {
           whether you’re getting things done.
           <br />
         </p>
-        <p style={{ fontSize: "20px" }}>
-          <span style={{ color: " rgb(157, 242, 97)", fontWeight: "bold" }}>
+        <p style={{ fontSize: "20px"  ,color:"#555b6e"}}>
+          <span style={{ color:"#f7c4a2", fontWeight: "bold" }}>
             2. More time
           </span>
           <br />
@@ -174,8 +174,8 @@ function ins() {
           on hobbies or other personal pursuits.
           <br />
         </p>
-        <p style={{ fontSize: "20px" }}>
-          <span style={{ color: " rgb(157, 242, 97)", fontWeight: "bold" }}>
+        <p style={{ fontSize: "20px" ,color:"#555b6e" }}>
+          <span style={{ color:"#f7c4a2", fontWeight: "bold" }}>
             3. More opportunities
           </span>
           <br />
@@ -185,8 +185,8 @@ function ins() {
           extremely desirable for any organization.
           <br />
         </p>
-        <p style={{ fontSize: "20px" }}>
-          <span style={{ color: " rgb(157, 242, 97)", fontWeight: "bold" }}>
+        <p style={{ fontSize: "20px" ,color:"#555b6e" }}>
+          <span style={{ color:"#f7c4a2", fontWeight: "bold" }}>
             4. Ability to realize goals
           </span>
           <br />

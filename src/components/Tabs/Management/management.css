@@ -1,5 +1,5 @@
 .kill {
-  background:black;
+  background:#2c3964  ;
   border-radius: 2px;
   display: inline-block;
   height: 300px;
@@ -15,7 +15,7 @@
 
 .kill:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  color: #5d615a;
+  color:#ffd6ba;
 }
 
 #img1 {

@@ -89,7 +89,7 @@ function Home() {
                   <div class="s-content">
                     <h3 style={{color:'#2c3964 '}}>Time Tracking</h3>
                     <p>
-                      Accurate and simple time tracking. Task-based estimation
+                    Tracking and managing your time is insanely simple using our web
                     </p>
                   </div>
                 </div>

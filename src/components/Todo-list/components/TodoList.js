@@ -15,7 +15,7 @@ export default class TodoList extends Component {
 
         return (
             <Fragment>
-                <h3 className="text-center" style={{fontFamily:"cursive",fontSize:"40px"}}>
+                <h3 className="text-center" style={{fontFamily: "Teko, sans-serif",fontSize:"40px", color:"#f7c4a2", fontWeight:"bold", }}>
                     Your Tasks
                 </h3>
                 <div className="card card-body my-3">
@@ -25,6 +25,7 @@ export default class TodoList extends Component {
                         <button 
                             type="button"
                             className="btn btn-danger btn-block mt-1"
+                            style={{backgroundColor:"#555b6e", borderColor:"#555b6e "}}
 
                             onClick={() => updateTodosToShow("all")}
                         >
@@ -35,6 +36,7 @@ export default class TodoList extends Component {
                         <button 
                             type="button"
                             className="btn btn-danger btn-block mt-1"
+                            style={{backgroundColor:"#555b6e", borderColor:"#555b6e "}}
 
                             onClick={() => updateTodosToShow("done")}
                         >
@@ -45,6 +47,7 @@ export default class TodoList extends Component {
                         <button 
                             type="button"
                             className="btn btn-danger btn-block mt-1"
+                            style={{backgroundColor:"#555b6e", borderColor:"#555b6e "}}
 
                             onClick={() => updateTodosToShow("todo")}
                         >
@@ -78,6 +81,7 @@ export default class TodoList extends Component {
                                     type="button"
                                     className="btn btn-danger btn-block mt-1"
                                     onClick={handleDeleteDoneTasks}
+                                    style={{backgroundColor:"#555b6e", borderColor:"#555b6e "}}
                                 >
                                     Delete done tasks
                                 </button>
@@ -86,6 +90,7 @@ export default class TodoList extends Component {
                                 <button 
                                     type="button"
                                     className="btn btn-danger btn-block mt-1"
+                                    style={{backgroundColor:"#555b6e", borderColor:"#555b6e "}}
                                     onClick={clearList}
                                 >
                                     Delete all tasks

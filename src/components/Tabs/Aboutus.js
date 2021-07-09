@@ -2,13 +2,13 @@ import React from "react";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import Hala1 from "../Images/Hala1.png";
+import Hala1 from "../Images/halaof.png";
 import Hala2 from "../Images/Hala2.png";
 
-import Tala1 from "../Images/Tala1.png";
+import Tala1 from "../Images/talaof.png";
 import Tala2 from "../Images/Tala2.png";
-import Sama1 from "../Images/Sama1.png";
-import Dog from "../Images/dog.png";
+import Sama1 from "../Images/samaof.png";
+import sama from "../Images/sama.jpg";
 import "./Aboutus.css";
 
 export default function Aboutus() {
@@ -27,9 +27,11 @@ export default function Aboutus() {
           style={{
             marginLeft: "38%",
             width: "200px",
-            borderBottom: "3px solid rgb(157,242,97)",
+            borderBottom: "3px solid #f7c4a2            ",
             fontSize: "40px",
             marginBottom: "30px",
+            color:"#2c3964"
+
           }}
         >
           About us{" "}
@@ -37,6 +39,7 @@ export default function Aboutus() {
         <p
           style={{
             fontSize: "20px",
+            color:"#555b6e",
 
             width: "660px",
             marginLeft: "210px",
@@ -109,7 +112,7 @@ export default function Aboutus() {
             />
             <img
               class="peculiar"
-              src={Dog}
+              src={sama}
               style={{
                 height: "400px",
                 marginBottom: "-90px",
@@ -121,17 +124,17 @@ export default function Aboutus() {
       </div>
       <div>
         <h2
-          style={{ marginTop: "250px", marginLeft: "70px", fontSize: "30px" }}
+          style={{ marginTop: "250px", marginLeft: "70px", fontSize: "30px" ,color:"#2c3964 "}}
         >
           Hala Abunahla
         </h2>
         <h2
-          style={{ marginTop: "-45px", marginLeft: "430px", fontSize: "30px" }}
+          style={{ marginTop: "-45px", marginLeft: "430px", fontSize: "30px" ,color:"#2c3964 "}}
         >
           Tala Mohanna
         </h2>
         <h2
-          style={{ marginTop: "-44px", marginLeft: "770px", fontSize: "30px" }}
+          style={{ marginTop: "-44px", marginLeft: "770px", fontSize: "30px",color:"#2c3964 " }}
         >
           Sama Almallak
         </h2>
@@ -139,7 +142,7 @@ export default function Aboutus() {
 
       <div>
         <div
-          style={{ borderTop: "1px solid rgb(157,242,97)", marginTop: "100px" }}
+          style={{ borderTop: "1px solid #f7c4a2          ", marginTop: "100px", color:"#555b6e" }}
         >
           <p style={{ marginTop: "30px", fontSize: "20px" }}>
             Need a hand? Or need a highfive? <br />

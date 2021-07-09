@@ -35,7 +35,7 @@ function Login({ history }) {
 
   return (
     <div>
-      min-height:800px;
+ 
       <div class="login-wrap" style={{ minHeight: "600px" }}>
         <div class="login-html">
           <input id="tab-1" type="radio" name="tab" class="sign-in" checked />

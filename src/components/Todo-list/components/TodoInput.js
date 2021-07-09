@@ -27,6 +27,7 @@ export default class TodoInput extends Component {
                     <button 
                         type="submit"
                         className="btn btn-danger btn-block mt-1"
+                        style={{backgroundColor:"#555b6e", borderColor:"#555b6e "}}
 
                     >
                         {editItem ? 'Edit task' : 'Add new task'}

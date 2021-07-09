@@ -55,7 +55,7 @@ class App extends Component {
       <div className="App">
         <div class="sandbox sandbox-correct-pronounciation">
           
-            <var className="text-capitalize text-center "style={{fontFamily:'cursive',fontSize:'40px',content: "§",textAlign:'center',marginTop:'50px',marginBottom:'-20px'}}>Remembering Future Tasks</var>
+            <var className="text-capitalize text-center "style={{fontFamily:'Teko, sans-serif',fontSize:'40px',content: "§",textAlign:'center',marginTop:'50px',marginBottom:'-20px', color:"#2c3964"}}>Remembering Future Tasks</var>
           
         </div>
         <div className="form-inline reminder-form" style={{marginBottom:'200px'}}>
@@ -63,6 +63,7 @@ class App extends Component {
             <input
               className="form-control"
               placeholder="I have to..."
+              style={{fontFamily:'Teko, sans-serif', textColor:"#555b6e"}}
               onChange={event => this.setState({text: event.target.value})}
             />
             <input
@@ -74,6 +75,9 @@ class App extends Component {
           <button
             type="button"
             className="btn btn-success"
+            
+
+            style={{backgroundColor:"#2c3964", borderColor:"#2c3964"}}
             onClick={() => this.addReminder()}
           >
             Add Reminder
@@ -81,6 +85,7 @@ class App extends Component {
           <div
             className="btn btn-danger"
             onClick={() => this.props.clearReminders()}
+            style={{backgroundColor:"#f7c4a2", borderColor:"#f7c4a2"}}
           >
             Clear reminders
           </div>
