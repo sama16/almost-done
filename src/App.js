@@ -18,8 +18,8 @@ import MainPage from "./pages";
 import PageNotFound from "./pages/404";
 import inspiration from "./components/Tabs/ins";
 import Aboutus from "./components/Tabs/Aboutus";
-import signup from './components/Tabs/signup';
-import login from './components/Tabs/login'
+import signup from "./components/Tabs/signup";
+import login from "./components/Tabs/login";
 
 class App extends Component {
   render() {
